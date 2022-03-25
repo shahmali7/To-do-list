@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(19, 196, 196);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.p2{
+    color: rgb(14, 78, 14);
+} 
+h1{
+    font-weight: bold;
+}
+p{
+    font-weight: bolder;
+    margin: 10px;
+}
+#additem{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 1.5rem;
+}
+
+ul{
+    margin-top: 10px;
+    list-style: none;
+}
+li{
+    border-radius: 5px;
+    font-weight: normal;
+    margin-top: 5px;
+    border-top: 1.5px solid grey;
+    background-color: rgb(4, 168, 160);
+}
+li button{
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    width: 20px;
+}
+#completed{
+    float: left;
+    cursor: pointer;
+}
+#deleted{
+    float: right;
+    cursor: pointer;
+}
+.myLi{
+    background-color: rgb(4, 168, 4);
+}
